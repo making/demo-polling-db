@@ -10,9 +10,3 @@ curl -H "Content-Type: application/json" localhost:8080/jobs -d "{\"args\":[\"He
 ```
 curl localhost:8080/jobs
 ``` 
-
-## Get registered tweets
-
-```
-curl localhost:8080/tweets
-```
