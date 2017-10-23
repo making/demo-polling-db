@@ -1,13 +1,12 @@
 package com.example.demopollingdb;
 
-import org.springframework.util.StringUtils;
-
+import java.io.Serializable;
 import java.time.Instant;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Job {
+public class Job implements Serializable {
     private final long id;
     private final List<String> args;
     private final Instant createdAt;
